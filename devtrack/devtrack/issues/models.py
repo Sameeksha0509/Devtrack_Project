@@ -52,3 +52,7 @@ class CriticalIssue(Issue):
 class LowPriorityIssue(Issue):
     def describe(self):
         return f"{self.title} — low priority, handle when free"
+
+class LowPriorityIssue(Issue):
+    def describe(self):
+        return f"{self.title} — low priority, handle when free"
