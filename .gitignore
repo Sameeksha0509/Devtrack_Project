@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+devtrack/db.sqlite3
