@@ -24,3 +24,5 @@ A Django project for tracking engineering issues.
 ## Design Decision
 
 I chose to store data in JSON files instead of a database for simplicity and to avoid database setup, making the project easy to run without additional dependencies. This allows quick prototyping and testing in Postman.
+
+
