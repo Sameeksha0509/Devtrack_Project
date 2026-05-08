@@ -24,3 +24,12 @@ A Django project for tracking engineering issues.
 ## Design Decision
 
 I chose to store data in JSON files instead of a database for simplicity and to avoid database setup, making the project easy to run without additional dependencies. This allows quick prototyping and testing in Postman.
+
+## Screenshots
+
+To include screenshots of Postman tests, place image files in a `screenshots/` folder in the repository root. Reference them in Markdown like this:
+
+- Success case for POST /api/issues/: ![Success](screenshots/success_post_issue.png)
+- Failure case for invalid data: ![Failure](screenshots/failure_invalid_data.png)
+
+These are placeholders; replace with actual screenshots from your Postman tests.
